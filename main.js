@@ -196,7 +196,7 @@ function initMap() {
         position: homePos,
         map: map,
         title: "Home",
-        icon: "images/house.png"
+        icon: "Images/house.png"
     });
 
     // Set zoom level

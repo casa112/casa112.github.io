@@ -81,22 +81,22 @@ p, li, td {
     color: white;
 }
 #numbers a, {
-    color: #444444;
+    color: #E1FFFB;
 }
 #activity a {
-    color: #444444;
+    color: #E1FFFB;
 }
 #numbers a:active {
-    color: #5482AB;
+    color: #9B3400;
 }
 #activity a:active {
-    color: #5482AB;
+    color: #9B3400;
 }
 #numbers a:hover {
-    color: #5482AB;
+    color: #9B3400;
 }
 #activity a:hover {
-    color: #5482AB;
+    color: #9B3400;
 }
 #home, #info, #rules, #numbers, #contact, #activity {
     padding-top: 65px;
@@ -216,6 +216,9 @@ nav {
     display: block;
     color: #71C6C1;
 }
+.sidenav a:hover {
+    color: #71C6C1;
+}
 .sidnavText {
     margin-top: 20px;
 }
@@ -224,18 +227,11 @@ a {
 }
 
 a:hover {
-    color: #5482AB;
+    color: #9B3400;
 }
 a:active {
-    color: #5482AB;
+    color: #9B3400;
 }
-
-.openbtn:hover {
-    color: #5482AB;
-}
-.openbtn:active {
-    color: #5482AB;
-} 
 .sidenav i {
     margin-right: 10px;
 }
