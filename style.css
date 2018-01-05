@@ -1,0 +1,293 @@
+*, body, html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    overflow-x: hidden;
+}
+footer {
+    float: right;
+    margin: 20px 40px 20px 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 0.6em;
+}
+a, a:hover, a:active {
+    text-decoration: none;
+}
+h1 {
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    font-size: 2.2em;
+    font-weight: 700;
+    text-align: center;
+}
+ .whiteDiv {
+     color: #444444;
+     background-color: 
+}
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+th {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid;
+}
+th, td {
+    padding-right: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+td {
+    padding-top: 5px;
+    padding-bottom: 5px; 
+}
+table {
+    border-collapse: collapse;
+}
+.twocol {
+    column-count: 2;
+    column-width: 200px;
+    column-gap: 2em;
+    max-width: 800px;
+}
+#rules ul {
+    column-count: 2;
+    column-width: 200px;
+    column-gap: 3em;
+    max-width: 800px;
+}
+#info ul {
+    column-count: 2;
+    column-width: 100px;
+    column-gap: 3em;
+    max-width: 800px;
+}
+p, li, td {
+    margin-bottom: 10px;
+    font-family: helvetica, arial, sans-serif;
+}
+.bold {
+    font-weight: bold;
+}
+#map {
+    height: 500px;
+    width: 100%;
+}
+#numbers, #info, #activity {
+    background: #71C6C1;
+    color: white;
+}
+#numbers a, {
+    color: #444444;
+}
+#activity a {
+    color: #444444;
+}
+#numbers a:active {
+    color: #5482AB;
+}
+#activity a:active {
+    color: #5482AB;
+}
+#numbers a:hover {
+    color: #5482AB;
+}
+#activity a:hover {
+    color: #5482AB;
+}
+#home, #info, #rules, #numbers, #contact, #activity {
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
+.inAprt {
+    text-align: center;
+    margin-top: 20px;
+}
+.mainIcon {
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+}
+.mainIcon i {
+    font-size: 2em;
+    text-align: center;
+}
+.mainIcon p {
+    text-align: center;
+    margin: 5px;
+}
+ul {
+    list-style-type: circle;
+    margin-left: 0;
+    padding-left: 0;
+}
+li  {
+ margin-left: 1em;
+}
+.smallIcon {
+    margin-right: 10px;
+}
+.line {
+    border-bottom: 1px solid;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/* Navbar */
+.topnav {
+    background-color: white;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 110;
+    margin-left: 0;
+    margin-top: 0;
+    padding: 20px;
+    text-align: center;
+    z-index: 2;
+}
+.topnav a {
+    font-weight: bold;
+    text-decoration: none;
+    z-index: 120;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #71C6C1;
+}
+.topnav p {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    color: #71C6C1;
+    z-index: 121;
+}
+.topnav i, .sidenav i {
+   color: #71C6C1; 
+}
+nav {
+    height: 20px;
+}
+
+.topnav .openbtn {
+    float: right;
+    display: none;
+    text-align: center;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #71C6C1;
+    font-size: 15px;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 13px;
+    right: 12px;
+    font-size: 15px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    right: 0;
+    display: none;
+    background-color: white;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 1em;
+    color: dimgray;
+    font-family: roboto, sans-serif;
+    font-weight: 700;
+    display: block;
+    color: #71C6C1;
+}
+.sidnavText {
+    margin-top: 20px;
+}
+a {
+    color: #71C6C1;
+}
+
+a:hover {
+    color: #5482AB;
+}
+a:active {
+    color: #5482AB;
+}
+
+.openbtn:hover {
+    color: #5482AB;
+}
+.openbtn:active {
+    color: #5482AB;
+} 
+.sidenav i {
+    margin-right: 10px;
+}
+
+a {
+    cursor: pointer;
+}
+.menu {
+    border-left: 1px solid;
+    padding-left: 20px;
+}
+
+/* Slideshow */
+.carousel-control {
+    text-shadow: none;
+    background-color: none;
+    filter: none;
+    opacity: none;
+}
+.glyphicon-chevron-right, .glyphicon-chevron-left {
+    color: white;
+}
+
+/* Map */
+.info_content {
+    color: black;
+}
+
+@media screen and (max-width: 970px) {
+    .menu {display: none;}
+    .topnav .openbtn {
+        float: right;
+        display: block;
+        text-decoration: none;
+    }
+    .sidenav {
+        display: block;
+    }
+
+    h1 {
+        font-size: 2em;
+        margin-top: 5px;
+    } 
+    .topnav a {
+        font-size: 1em;
+    }
+    h2, h3 {
+        font-size: 1.8em;
+    }
+    .mainIcon {
+        font-size: 0.7em;
+    }
+}
