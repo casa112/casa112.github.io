@@ -24,7 +24,6 @@ h1 {
 }
 .whiteDiv {
     color: #444444;
-    background-color: 
 }
 h1, h2, h3 {
     font-family: 'Roboto', sans-serif;
@@ -248,9 +247,7 @@ a {
 /* Slideshow */
 .carousel-control {
     text-shadow: none;
-    background-color: none;
     filter: none;
-    opacity: none;
 }
 .glyphicon-chevron-right, .glyphicon-chevron-left {
     color: white;
