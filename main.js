@@ -69,102 +69,98 @@ function initMap() {
     var infoWindowContent = [
         ['<div class="info_content">' +
         '<h3>Villamartin</h3>' +
-        '<p>Telefonnummer +34</p>' + '</div>'],
+        '<p>Telefonnummer +34 966 765 170</p>' + '</div>'],
         ['<div class="info_content">' +
         '<h3>Campoamor</h3>' +
-        '<p>Telefonnummer +34</p>' +
+        '<p>Telefonnummer +34 965 321 366</p>' +
         '</div>'],
         ['<div class="info_content">' +
         '<h3>Las Ramblas</h3>' +
-        '<p>Telefonnummer +34</p>' +
+        '<p>Telefonnummer +34 966 774 728</p>' +
         '</div>'],
         ['<div class="info_content">' +
         '<h3>Las Colinas</h3>' +
-        '<p>Telefonnummer +34</p>' +
+        '<p>Telefonnummer +34 965 324 224</p>' +
         '</div>'],
         ['<div class="info_content">' +
         '<h3>La Marquesa</h3>' +
-        '<p>Telefonnummer +34</p>' +
+        '<p>Telefonnummer +34 966 714 258</p>' +
         '</div>'],
         ['<div class="info_content">' +
         '<h3>La Finca</h3>' +
-        '<p>Telefonnummer +34</p>' +
+        '<p>Telefonnummer +34 966 729 010</p>' +
         '</div>'],
         ['<div class="info_content">' +
         '<h3>Vistabella</h3>' +
-        '<p>Telefonnummer +34</p>' +
+        '<p>Telefonnummer +34 966 107 846</p>' +
         '</div>'],
         ['<div class="info_content">' +
         '<h3>Roda</h3>' +
-        '<p>Telefonnummer +34</p>' +
+        '<p>Telefonnummer +34 968 173 093</p>' +
         '</div>'],
         ['<div class="info_content">' +
         '<h3>Lo Romero</h3>' +
-        '<p>Telefonnummer +34</p>' +
+        '<p>Telefonnummer +34 902 180 918</p>' +
         '</div>'],
         ['<div class="info_content">' +
         '<h3>La Serena</h3>' +
-        '<p>Telefonnummer +34</p>' +
+        '<p>Telefonnummer +34 968 575 576</p>' +
         '</div>'],
         ['<div class="info_content">' +
         '<h3>Mar Menor</h3>' +
-        '<p>Telefonnummer +34</p>' +
+        '<p>Telefonnummer +34 968 041 842</p>' +
         '</div>'],
         ['<div class="info_content">' +
         '<h3>Saurines de la Torre</h3>' +
-        '<p>Telefonnummer +34</p>' +
+        '<p>Telefonnummer +34 968 041 842</p>' +
         '</div>'],
         ['<div class="info_content">' +
         '<h3>La Paraleja</h3>' +
-        '<p>Telefonnummer +34</p>' +
+        '<p>Telefonnummer +34 902 201 207</p>' +
         '</div>'],
         ['<div class="info_content">' +
         '<h3>El Valle</h3>' +
-        '<p>Telefonnummer +34</p>' +
+        '<p>Telefonnummer +34 968 033 002</p>' +
         '</div>'],
         ['<div class="info_content">' +
         '<h3>La Manga</h3>' +
-        '<p>Telefonnummer +34</p>' +
+        '<p>Telefonnummer +34 968 331 234</p>' +
         '</div>'],
         ['<div class="info_content">' +
         '<h3>Hacienda Del Alamo</h3>' +
-        '<p>Telefonnummer +34</p>' +
+        '<p>Telefonnummer +34 968 157 236</p>' +
         '</div>'],
         ['<div class="info_content">' +
         '<h3>Lorca</h3>' +
-        '<p>Telefonnummer +34</p>' +
+        '<p>Telefonnummer +34 968 113 535</p>' +
         '</div>'],
         ['<div class="info_content">' +
         '<h3>La Torre</h3>' +
-        '<p>Telefonnummer +34</p>' +
+        '<p>Telefonnummer +34 966 704 752</p>' +
         '</div>'],
         ['<div class="info_content">' +
         '<h3>Hacienda Riquelme</h3>' +
-        '<p>Telefonnummer +34</p>' +
+        '<p>Telefonnummer +34 968 038 050</p>' +
         '</div>'],
         ['<div class="info_content">' +
         '<h3>Font Del Llop</h3>' +
-        '<p>Telefonnummer +34</p>' +
+        '<p>Telefonnummer +34 966 126 767</p>' +
         '</div>'],
         ['<div class="info_content">' +
         '<h3>Alenda</h3>' +
-        '<p>Telefonnummer +34</p>' +
+        '<p>Telefonnummer +34 965 620 521</p>' +
         '</div>'],
         ['<div class="info_content">' +
         '<h3>El Plantio</h3>' +
-        '<p>Telefonnummer +34</p>' +
+        '<p>Telefonnummer +34 965 189 115</p>' +
         '</div>'],
         ['<div class="info_content">' +
         '<h3>Alicante</h3>' +
-        '<p>Telefonnummer +34</p>' +
+        '<p>Telefonnummer +34 965 153 794</p>' +
         '</div>'],
         ['<div class="info_content">' +
         '<h3>Bonalba</h3>' +
-        '<p>Telefonnummer +34</p>' +
-        '</div>'],
-        ['<div class="info_content">' +
-        '<h3>Casa hundratolv</h3>' +
-        '<p>Adress: Oasis Beach, fas IV, apartment 112 Calle Granate 6, 03189 Orihuela Costa Alicante España</p>' +
+        '<p>Telefonnummer +34 965 955 955</p>' +
         '</div>']
     ];
         

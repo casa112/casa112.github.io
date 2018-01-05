@@ -61,7 +61,7 @@
                 <div class="row">
                     <div class="col-md-1"></div>
                     <div class="col-md-10 col-xs-12">
-                        <div id="image-carousel" class="carousel slide" data-ride="carousel">
+                        <div id="image-carousel" class="carousel slide" data-ride="carousel" data-interval="false">
                             <!-- Indicators -->
                             <ol class="carousel-indicators">
                                 <li data-target="#image-carousel" data-slide-to="0" class="active"></li>
@@ -85,10 +85,10 @@
 
                             <!-- Wrapper for slides -->
                             <div class="carousel-inner" role="listbox">
-                                <div class="item">
+                                <div class="item active">
                                     <img src="Images/IMG_1846.JPG" alt="...">
                                 </div>
-                                <div class="item active">
+                                <div class="item">
                                     <img src="Images/IMG_0168.jpg" alt="...">
                                 </div>
                                 <div class="item">
@@ -326,7 +326,7 @@
                     <div class="col-md-3"></div>
                     <div class="col-md-6 col-xs-12">
                         <h1><i class="smallIcon fa fa-map-marker" aria-hidden="true"></i>Golfbanor</h1>
-                        <p class="bold line">Boka alla banor på <a href="www.ccqt.co.uk">www.ccqt.co.uk</a>, <a href="mailto:sales@ccgt.co.uk">sales@ccgt.co.uk</a> eller <a href="tel:+34646814203">+34 646 814 203</a></p>
+                        <p class="bold line">Boka alla banor på <a target="_blank" href="https://www.ccgt.co.uk">www.ccgt.co.uk</a>, <a href="mailto:andys@ccgt.co.uk">andy@ccgt.co.uk</a> eller <a href="tel:+34646814203">+34 646 814 203</a></p>
                     </div>
                 </div>
                 <div class="row">
@@ -369,15 +369,7 @@
                 <div class="row">
                     <div class="col-md-6 col-xs-12">
                         <h2>Nödnummer</h2>
-                        <div class="row">
-                            <div class="col-sm-4">
-                                <p>Allmänt nödnummer</p>
-                            </div>
-                            <div class="col-sm-8">
-                                <a href="tel:112">112</a>
-                            </div>
-                        </div>
-                        <table>
+                        <table class="tableCollapse">
                             <tr>
                                 <td>Allmänt nödnummer</td>
                                 <td><a href="tel:112">112</a></td>
@@ -459,7 +451,7 @@
                     <div class="col-md-1"></div>
                     <div class="col-md-5 col-xs-12">
                         <h2>Servicefirma</h2>
-                        <table>
+                        <table class="tableCollapse">
                             <th colspan="2">Nycklar, städning, felanmälan och flygplatstransport</th>
                             <tr>
                                 <td>Kontor</td>
@@ -471,7 +463,7 @@
                             </tr>
                         </table>
                         <h2>Taxi</h2>
-                        <table>
+                        <table class="tableCollapse">
                             <th colspan="2">Taxi finns på andra sidan gatan från lägenheten</th>
                             <tr>
                                 <td>Radio Taxi</td>
@@ -493,9 +485,8 @@
                     </div>
                 </div>
             </div>
+             <footer><a target="_blank" href="http://www.sannaskoog.com"><i class="fa fa-paint-brush" aria-hidden="true"></i> Sanna Skoog</a></footer>
         </div>
-
-        <footer>Design by <a href="https//;sanaskoog.com">Sanna Skoog</a></footer>
 
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDy7WP9QwNbkg1nuY2p72EoZrvI3J0bJac&callback=initMap" async defer></script>
         <script type="text/javascript" src="main.js"></script>

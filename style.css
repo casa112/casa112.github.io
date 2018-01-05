@@ -10,7 +10,7 @@ footer {
     margin: 20px 40px 20px 20px;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    font-size: 0.6em;
+    font-size: 0.8em;
 }
 a, a:hover, a:active {
     text-decoration: none;
@@ -22,30 +22,28 @@ h1 {
     font-weight: 700;
     text-align: center;
 }
- .whiteDiv {
-     color: #444444;
-     background-color: 
+.whiteDiv {
+    color: #444444;
+    background-color: 
 }
 h1, h2, h3 {
     font-family: 'Roboto', sans-serif;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 th {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    padding-top: 10px;
     padding-bottom: 5px;
+    padding-top: 15px;
     border-bottom: 1px solid;
 }
 th, td {
-    padding-right: 30px;
     padding-right: 10px;
     padding-left: 10px;
 }
 td {
-    padding-top: 5px;
-    padding-bottom: 5px; 
+    padding-top: 10px; 
 }
 table {
     border-collapse: collapse;
@@ -129,7 +127,7 @@ ul {
     padding-left: 0;
 }
 li  {
- margin-left: 1em;
+    margin-left: 1em;
 }
 .smallIcon {
     margin-right: 10px;
@@ -169,9 +167,6 @@ li  {
     font-family: 'Roboto', sans-serif;
     color: #71C6C1;
     z-index: 121;
-}
-.topnav i, .sidenav i {
-   color: #71C6C1; 
 }
 nav {
     height: 20px;
@@ -289,5 +284,16 @@ a {
     }
     .mainIcon {
         font-size: 0.7em;
+    }
+}
+@media screen and (max-width: 400px) {
+     .tableCollapse td {
+        display: block;
+        margin: 0;
+        padding-top: 0;
+    }
+    .tableCollapse tr {
+        display: block;
+        padding-top: 10px;
     }
 }
