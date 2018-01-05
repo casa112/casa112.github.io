@@ -160,6 +160,10 @@ li  {
     margin-left: 10px;
     margin-right: 10px;
     color: #71C6C1;
+    text-align: center;
+}
+.topnav a:hover {
+    color: #71C6C1;
 }
 .topnav p {
     display: inline-block;
