@@ -191,7 +191,7 @@ function initMap() {
     }
     
     // Place home marker
-    var homePos = new google.maps.LatLng(37.929654, -0.733279);
+    var homePos = new google.maps.LatLng(37.928857, -0.733963);
     var homeMarker = new google.maps.Marker({
         position: homePos,
         map: map,
